@@ -10,7 +10,7 @@ You only need jQuery in order for this to work.
 Installation
 ------------
 Download the source and include it in your webpage.
-    <script type=text/javascript src=/path/to/jquery.gridify.js></script>
+`<script type=text/javascript src=/path/to/jquery.gridify.js></script>`
 
 Usage
 -----
@@ -29,8 +29,8 @@ of tile (which can be overriden) as well as it's row count and column count.
 * gridRows: Grid's row count. (default is 10)
 
 
-    $('#grid').gridify({
-      tileClassName: 'tile',
-      gridColumns: 10,
-      gridRows: 10
-    });
+`$('#grid').gridify({
+  tileClassName: 'tile',
+  gridColumns: 10,
+  gridRows: 10
+});`
