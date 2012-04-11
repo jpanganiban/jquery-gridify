@@ -15,6 +15,10 @@ $.fn.gridify = function(options) {
       for(column=0; column<options.gridColumns; column++) {
         $(this).append("<div class='" + options.tileClassName +
           " row-" + row + " column-" + column + "'></div>");
+        var $tile = $(".tile.row-" + row + ".column-" + column)
+        var width = $tile.outerWidth();
+        var height = $tile.outerHeight();
+        $tile.css({top: row * height, left: column * width});
       }
     }
   });
