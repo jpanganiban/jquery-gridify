@@ -27,6 +27,8 @@ $.fn.gridify = function(options) {
     }
   });
 
+  return this;
+
 };
 
 })(jQuery);
