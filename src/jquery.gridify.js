@@ -13,10 +13,9 @@ $.fn.gridify = function(options) {
   this.each(function() {
     for(row=0; row<options.gridRows; row++) {
       for(column=0; column<options.gridColumns; column++) {
-        $(this).append("<div class=" + options.tileClassName +
-          " row-" + row + " column-" + column + "></div>");
+        $(this).append("<div class='" + options.tileClassName +
+          " row-" + row + " column-" + column + "'></div>");
       }
-      $(this).append("<div class=break>");
     }
   });
 
