@@ -24,13 +24,9 @@ of tile (which can be overriden) as well as it's row count and column count.
 
 ### Paramters:
 
+    $('#grid').gridify({tileClassName: 'tile', gridColumns: 10, gridRows: 10});
+
 * tileClassName: Tile's class. (default is 'tile')
 * gridColumns: Grid's column count. (default is 10)
 * gridRows: Grid's row count. (default is 10)
 
-
-`$('#grid').gridify({
-  tileClassName: 'tile',
-  gridColumns: 10,
-  gridRows: 10
-});`
