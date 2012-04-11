@@ -16,7 +16,7 @@ $.fn.gridify = function(options) {
         $(this).append("<div class=" + options.tileClassName +
           " row-" + row + " column-" + column + "></div>");
       }
-      $(this).append("<br>");
+      $(this).append("<div class=break>");
     }
   });
 
